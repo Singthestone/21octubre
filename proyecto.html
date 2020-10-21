@@ -40,8 +40,16 @@
     </header>
 
     <main>
-        <picture>
-            <img src="img/desktop/Rectangle 1-1.jpg" alt="mountain01">
+        <picture class="banner">
+
+            <!-- escritorio -->
+            <source srcset="
+            img/desktop/pic02.jpg    1x,
+            img/desktop/pic02@2x.jpg 2x
+              " media="(min-width:1200px)" />
+
+            <!-- Imagen de respaldo -->
+            <img src="" alt="banner" />
         </picture>
     </main>
 
