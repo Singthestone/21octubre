@@ -23,35 +23,35 @@
     <!-- links de estilos -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
 </head>
 
 <body>
+    <div class="container">
+        <header class="header">
 
-    <header>
+            <nav class="header__menu">
+                <a class="menu__inicio" href=""> INICIO </a>
+                <a class="menu__proyecto" href="proyectos.html"> PROYECTOS </a>
+                <a class="menu__contactar" href="contactar.html"> CONTACTAR</a>
+                <a class="menu__blog" href="blog.html"> BLOG </a>
+            </nav>
 
-        <nav>
-            <a href="index.html"> INICIO </a>
-            <a href="proyecto.html"> PROYECTO </a>
-        </nav>
+            <picture class="header__banner">
 
-        <picture class="banner">
+                <!-- escritorio -->
+                <source srcset="
+            img/desktop/pic01@1x.jpg 1x,
+            img/desktop/pic01@2x.jpg 2x
+            " media="(min-width:1200px)" />
 
-            <!-- escritorio -->
-            <source srcset="
-            img/desktop/pic03@1x.jpg 1x,
-            img/desktop/pic03@2x.jpg 2x
-              " media="(min-width:1200px)" />
+                <!-- Imagen de respaldo -->
+                <img src="" alt="banner montañas" />
+            </picture>
 
-            <!-- Imagen de respaldo -->
-            <img src="" alt="banner montañas" />
-        </picture>
-
-    </header>
-    <main>
-    </main>
+        </header>
+    </div>
 
 </body>
 
